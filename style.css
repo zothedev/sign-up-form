@@ -68,12 +68,28 @@ body {
 
 .top-row {
     background-color: var(--outer-bg);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem 8rem;
+}
+
+.top-row p, .top-row p em, .top-row p span {
+    font-size: 2vw;
+    font-family: "Rowdies";
+    font-weight: 300;
+}
+
+.top-row span {
+    border-bottom: 1px solid black;
 }
 
 .middle-row {
     background-color: var(--main-bg);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    z-index: 1; /* make sure middle row is stacked on top */
 }
 
 .bottom-row {
