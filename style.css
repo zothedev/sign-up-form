@@ -15,4 +15,51 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 10px;
 }
+
+body {
+    display: flex;
+}
+
+/* * * * * * */
+/*MAIN CONTENT*/
+/* * * * * * */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-row, .middle-row, .bottom-row {
+    height: 33.33vh;
+    width: 70vw;
+}
+
+.top-row {
+    background-color: beige;
+}
+
+/* .middle-row {
+
+} */
+
+.bottom-row {
+    background-color: rgb(50, 50, 42);
+}
+/* * * * * * */
+/*  *SIDEBAR*  */
+/* * * * * * */
+
+/* .bg-image {
+    height: 100vh;
+    max-width: calc(40vh + 10rem);
+} */
+
+.sidebar {
+    background-image: url("./bg-img.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
