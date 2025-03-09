@@ -2,7 +2,8 @@
 /* **VARS** */
 /* * * * * * */
 :root { 
-    --outer-bg: #121212;
+    --outer-bg: #f9fafb;
+    --main-bg: white;
 }
 
 
@@ -70,7 +71,9 @@ body {
 }
 
 .middle-row {
-    background-color: #282828;
+    background-color: var(--main-bg);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .bottom-row {
@@ -103,7 +106,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 0.8rem; */
+    
     
 }
 
