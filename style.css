@@ -1,4 +1,12 @@
 /* * * * * * */
+/* **VARS** */
+/* * * * * * */
+:root { 
+    --outer-bg: #121212;
+}
+
+
+/* * * * * * */
 /* **FONTS** */
 /* * * * * * */
 .rowdies-light {
@@ -58,15 +66,15 @@ body {
 }
 
 .top-row {
-    background-color: beige;
+    background-color: var(--outer-bg);
 }
 
-/* .middle-row {
-
-} */
+.middle-row {
+    background-color: #282828;
+}
 
 .bottom-row {
-    background-color: rgb(50, 50, 42);
+    background-color: var(--outer-bg);
 }
 
 /* * * * * * */
