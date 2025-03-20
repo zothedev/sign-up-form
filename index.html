@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <!-- stylesheets -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./forms.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/forms.css">
+    <link rel="stylesheet" href="./stylesheets/reset.css">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,12 +31,52 @@
 
     <div class="main-content">
         <div class="top-row">
-            <p>Your very own GameList to organize the games you've played and the endless amount of games you'll play next. <em>Not a real online service (yet).</em></p>
+            <p>Your very own GameList to organize the games you've played and the endless amount of games you'll play
+                next. <em>Not a real online service (yet).</em></p>
             <p>Add your first game <span>right now.</span></p>
         </div>
 
         <div class="middle-row">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, non.</p>
+            <!-- form start -->
+            <form action="get">
+
+                <fieldset>
+                    <legend>Let's do this!</legend>
+
+                    <div class="form-side-container">
+                        <div class="left-side">
+                            <p>
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" placeholder="Joe">
+                            </p>
+                            <p>
+                                <label for="userEmail">Email</label>
+                                <input type="email" id="userEmail" placeholder="Joe@gmail.com">
+                            </p>
+                            <p>
+                                <label for="password">Password</label>
+                                <input type="password" id="password">
+                            </p>
+                        </div>
+                        <div class="right-side">
+                            <p>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" placeholder="Random">
+                            </p>
+                            <p>
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="999-999-9999">
+                            </p>
+                            <p>
+                                <label for="passwordConfirm">Confirm Password</label>
+                                <input type="password" id="passwordConfirm">
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </form>
+            <!-- form end -->
         </div>
 
         <div class="bottom-row">
