@@ -56,7 +56,7 @@ body {
 .top-row,
 .bottom-row {
     height: 35vh;
-    width: 70vw;
+    width: 60vw;
 }
 
 .top-row {
@@ -102,7 +102,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 60vw;
     height: 100vh;
     
 
