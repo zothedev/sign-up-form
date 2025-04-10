@@ -74,7 +74,27 @@
 
 /* main content */
 .main {
+    /* sizing of main container */
     flex: 2;
 
+    background-color: rgb(255, 244, 244);
+
+    /* flex settings for main children */
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
     background-color: red;
+    flex: 1;
+}
+
+.mid {
+    background-color: rgb(193, 193, 193);
+    flex: 1;
+}
+
+.bot {
+    background-color: rgb(141, 115, 115);
+    flex: 1;
 }
