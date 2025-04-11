@@ -116,8 +116,8 @@ textarea {
 .mid {
     background-color: rgb(255,255,255);
     flex: 1.25;
-
-
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .mid h2 {
@@ -125,7 +125,7 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
 
-    padding: 20px 0 0 50px;
+    padding: 20px 0 30px 50px;
 }
 
 .mid p {
@@ -135,13 +135,13 @@ textarea {
 
 .mid .form-row {
     display: flex;
-    gap: 60px;
+    gap: 90px;
     
     padding: 20px 0 0 50px;
 }
 
 input {
-    width: 300px;
+    width: 350px;
     border: #E5E7EB solid 2px;
     border-radius: 5px;
     box-shadow: none;
@@ -152,13 +152,15 @@ input {
 }
 
 label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: rgb(73, 73, 73);
     margin-bottom: 6px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
 
 }
 
 .bot {
-    background-color: rgb(141, 115, 115);
+    background-color: rgb(249,250,251);
     flex: 1;
 }
