@@ -28,39 +28,38 @@
             </div>
             <div class="mid">
                 <h2>Let's do this!</h2>
-                <div class="name-inputs form-row">
-                    <p>
-                        <label for="fname">FIRST NAME</label>
-                        <input type="text" id="fname">
-                    </p>
-
-                    <p>
-                        <label for="lname">LAST NAME</label>
-                        <input type="text" id="lname">
-                    </p>
-                </div>
-                <div class="email-phone-inputs form-row">
-                    <p>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email">
-                    </p>
-
-                    <p>
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone">
-                    </p>
-                </div>
-                <div class="password-inputs form-row">
-                    <p>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
-                    </p>
-
-                    <p>
-                        <label for="confirmpassword">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirmpassword">
-                    </p>
-                </div>
+                <form action="get">
+                    <div class="name-inputs form-row">
+                        <p>
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" maxlength="20">
+                        </p>
+                        <p>
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" maxlength="20">
+                        </p>
+                    </div>
+                    <div class="email-phone-inputs form-row">
+                        <p>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" maxlength="20">
+                        </p>
+                        <p>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" maxlength="20">
+                        </p>
+                    </div>
+                    <div class="password-inputs form-row">
+                        <p>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required maxlength="20">
+                        </p>
+                        <p>
+                            <label for="confirmpassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmpassword" required maxlength="20">
+                        </p>
+                    </div>
+                </form>
             </div>
             <div class="bot">
                 <button type="submit">Create Account</button>
